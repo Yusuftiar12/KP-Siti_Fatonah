@@ -1,0 +1,84 @@
+.m-center{
+    margin: 0 auto;
+}
+
+body{
+    max-width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(23, 233, 233);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar :hover{
+    color: violet;
+    transition: all 0.5s ease;
+}
+
+header nav {
+    max-width: 50%;
+    justify-content: center;
+    font-family: "Playwrite NG Modern", cursive;
+}
+
+header nav li a:hover {
+    color: rgb(196, 15, 15);
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    margin-left: 14px;
+}
+
+header nav li a{
+    text-decoration: none;
+    transition: all 0.s ease;
+}
+
+main {
+    max-width: 100%;
+}
+
+#gambar-1 {
+    position: relative;
+}
+
+#gambar-1 img {
+    max-width: 100%;
+}
+
+table  {
+    border: solid; color: black;
+    text-align: center;
+    grid-template-columns: max-content;
+}
+
+.form :hover {
+    color: aquamarine;
+    transition: all 0.5s ease ;
+}
+
+
+/* For Desktop */
+
+@media only screen and (min-width: 768px) {
+
+}
+
+/* For Mobile */
+@media only screen and (min-width: 600px) {
+
+}
